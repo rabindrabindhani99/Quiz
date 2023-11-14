@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComprehensionActivity"
+    android:background="@drawable/back_img"
+    tools:ignore="hardCodedText">
+
+    <TextView
+        android:id="@+id/compHeading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:text="Comprehensions"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_24ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/choose_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/compHeading1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="@string/choose"
+        android:textColor="@color/red"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/general_knowledge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choose_text"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:backgroundTint="@color/transparent"
+        android:text="General Knowledge"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/general_knowledge"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:backgroundTint="@color/transparent"
+        android:text="History"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/geography"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/history"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:backgroundTint="@color/transparent"
+        android:text="Geography"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mathematics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/geography"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:backgroundTint="@color/transparent"
+        android:text="Mathematics"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/politics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mathematics"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:backgroundTint="@color/transparent"
+        android:text="Politics"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/politics"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:backgroundTint="@color/transparent"
+        android:text="Music"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/computer_science"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/music"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:backgroundTint="@color/transparent"
+        android:text="Computer Science"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/computer_science"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:backgroundTint="@color/transparent"
+        android:text="Sports"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</RelativeLayout>
